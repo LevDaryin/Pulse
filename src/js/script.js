@@ -1,3 +1,5 @@
+//slider
+
 $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
@@ -14,6 +16,9 @@ $(document).ready(function(){
             },
         ]
     });
+
+
+//tabs
 
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
@@ -34,7 +39,7 @@ $(document).ready(function(){
     toggleSlide(".catalog-item__link");
     toggleSlide(".catalog-item__back");
 
-    //modal
+//modal
 
     $('[data-modal=consultation]').on('click', function() {
         $('.overlay, #consultation').fadeIn('slow');
@@ -50,7 +55,7 @@ $(document).ready(function(){
         });
     });
 
-    //validation
+//validation
 
     function validateForm(form) {
         $(form).validate({
@@ -83,4 +88,6 @@ $(document).ready(function(){
     validateForm('#consultation-form');
     validateForm('#consultation form');
     validateForm('#order form');
+
+    $('input[name=phone]').mask("+7 (999)-999-99-99")
 });
