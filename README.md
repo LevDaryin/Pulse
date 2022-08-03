@@ -1,4 +1,3 @@
 # Pulse site
-Training creation of a site according to the layout.
-
-In this project, the **SASS** preprocessor, the **Gulp** task scheduler, and the **Git** version control system were used.
+Creating a website on the front-end developer course. <br>
+In this project, the **SASS** preprocessor, the **Gulp** task scheduler, and the **Git** version control system were used. In addition, the basics of **JS** were studied on this project.
